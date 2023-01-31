@@ -1,0 +1,26 @@
+
+
+flexContainer {
+    display: 
+    flex;
+    width: 33%;
+    margin: 75px;
+    padding: 10%;
+    flex-direction: rows;
+}
+
+.myWork {
+    display: flex;
+    width: 33%;
+    margin: 75px;
+    padding: 10%;
+    flex-direction:column;
+    display: grid;
+    grid-area: myWork, myWork, myWork;
+}
+
+
+
+@media only screen and (max-width: 600) {
+    width: 100%;
+}
